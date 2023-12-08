@@ -49,8 +49,8 @@ fun Greeting() {
         verticalArrangement = Arrangement.spacedBy(12.dp)){
 
         sections.forEach { seciton->
-            stickyHeader { Text(modifier =
-            Modifier
+            stickyHeader {
+                Text(modifier = Modifier
                 .fillMaxWidth()
                 .background(Color.Cyan)
                 .padding(12.dp),
